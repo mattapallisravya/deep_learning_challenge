@@ -7,21 +7,21 @@ Overview of the analysis:
 Data Preprocessing:
 
 What variable(s) are the target(s) for your model?
-IS_SUCCESSFUL is the target.
+- IS_SUCCESSFUL is the target.
 
 What variable(s) are the features for your model?
-all the other columns except IS_SUCCESSFUL is feature.
+- all the other columns except IS_SUCCESSFUL is feature.
 
 What variable(s) should be removed from the input data because they are neither targets nor features?
-Dropped Name and EIN column. 
+- Dropped Name and EIN column. 
 
 Compiling, Training, and Evaluating the Model:
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-neurons I selected were 80 as it should be double the amount of input dimension which is 35. Added four layers so that data is going to pass through and to increase accuracy.
+- neurons I selected were 80 as it should be double the amount of input dimension which is 35. Added four layers so that data is going to pass through and to increase accuracy.
 
 Were you able to achieve the target model performance?
-It is almost near to the target which is 74.09
+- It is almost near to the target which is 74.09
 
 What steps did you take in your attempts to increase model performance?
-Changed the random state, number of layers, activation type, number of neurons.
+- Changed the random state, number of layers, activation type, number of neurons.
